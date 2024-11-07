@@ -21,7 +21,7 @@ body {
     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
 }
 .display{
-    color: black;
+    color: rgb(55, 55, 55);
     font-size: 70px;
     text-align: end;
     padding-top: 20px;
@@ -40,4 +40,55 @@ body {
     margin: 10px 6px;
     font-size: 30px;
     background-color: rgba(128, 128, 128, 0.372);
+}
+
+.zero btn {
+ padding: 30px 190px 26px 20px;
+
+}
+
+.btn-blue {
+    background-color: rgb(197, 197, 247);
+}
+
+.btn-grey {
+    background-color:#2c3e50
+}
+
+
+body.dark-theme {
+    background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+body.dark-theme .calculator {
+    background-color: #000000;
+}
+
+body.dark-theme .display {
+    color: #ffffff;
+}
+
+body.dark-theme .button {
+    background-color: #323232;
+    color: #ffffff;
+}
+
+body.dark-theme .btn-blue {
+    background-color: orange;
+}
+
+body.dark-theme .btn-grey {
+    background-color: #727272;
+    color: #ffffff;
+}
+
+.btn-theme-toggle {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #7d4caf;
+    color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+    cursor: pointer;
 }
